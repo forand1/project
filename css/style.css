@@ -1,0 +1,527 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Webfont: Lato-Black */
+@font-face {
+  font-family: 'LatoWebBlack';
+  src: url("fonts/Lato-Black.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Black.woff2") format("woff2"), url("fonts/Lato-Black.woff") format("woff"), url("fonts/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Bold */
+@font-face {
+  font-family: 'LatoWebBold';
+  src: url("fonts/Lato-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Bold.woff2") format("woff2"), url("fonts/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: 'LatoWeb';
+  src: url("fonts/Lato-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Regular.woff2") format("woff2"), url("fonts/Lato-Regular.woff") format("woff"), url("fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* font-family: "RalewayRegular"; */
+@font-face {
+  font-family: "RalewayRegular";
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "RalewayMedium"; */
+@font-face {
+  font-family: "RalewayMedium";
+  src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+  src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"), url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* font-family: "RalewayBold"; */
+@font-face {
+  font-family: "RalewayBold";
+  src: url("../fonts/RalewayBold/RalewayBold.eot");
+  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.wrap {
+  background-color: #000;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 55%;
+  opacity: 0.50;
+  background: url("../images/hero-01.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.top:hover {
+  opacity: 1;
+}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 55%;
+  opacity: 0.50;
+  background: url("../images/hero-02.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.portfolio:hover {
+  opacity: 1;
+}
+
+.our_offices {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 55%;
+  opacity: 0.50;
+  background: url("../images/hero-03.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.our_offices:hover {
+  opacity: 1;
+}
+
+.our_contacts {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 55%;
+  opacity: 0.50;
+  background: url("../images/hero-04.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.our_contacts:hover {
+  opacity: 1;
+}
+
+.white_arrow {
+  position: relative;
+  padding-bottom: 40%;
+  margin-bottom: -10%;
+}
+
+.white_arrow__left {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  transform: skewY(10deg);
+  margin-top: -5%;
+  z-index: 2;
+}
+
+.white_arrow__right {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  transform: skewY(-10deg);
+  margin-top: -5%;
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  margin: 0% 20%;
+  padding-top: 5%;
+}
+
+.container_w {
+  position: absolute;
+  width: 60%;
+  margin: -35% 20% 0% 20%;
+  padding-top: 5%;
+  z-index: 3;
+}
+
+.container_c {
+  position: relative;
+  width: 60%;
+  margin: 0% 20%;
+  padding-top: 10%;
+}
+
+.logo {
+  position: absolute;
+  width: 7%;
+  padding-bottom: 7%;
+  background: url("../pic/logo_start.png") no-repeat 50% 50%;
+  background-size: contain;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  margin-top: 2%;
+  min-width: 80%;
+  display: inline-block;
+  text-align: right;
+}
+
+.nav a {
+  margin-left: 2%;
+  color: #fafcfe;
+  font-family: "RalewayRegular";
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+.top__content {
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.top__content__logo {
+  width: 10%;
+  padding-bottom: 10%;
+  background: url("../pic/logo.png") no-repeat 50% 50%;
+  background-size: contain;
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.top__content__text {
+  color: #fafcfe;
+  font-family: "RalewayRegular";
+  font-size: 18px;
+  text-decoration: none;
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.top__content__button {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fafcfe;
+  font-family: "RalewayRegular";
+  font-size: 15px;
+  text-decoration: none;
+  padding: 1%;
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.top__content__scroll {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+}
+
+.top__content__scroll p {
+  color: #fafcfe;
+  font-family: "RalewayRegular";
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.top__content__scroll--ico {
+  width: 3%;
+  padding-bottom: 5%;
+  background: url("../pic/mouse_scrolling-w.png") no-repeat 50% 50%;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.container_w h2 {
+  color: #2980b9;
+  font-family: "RalewayMedium";
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.line_blue {
+  width: 6%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #2980b9;
+}
+
+.content {
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.our_services__content__box {
+  width: 25%;
+  display: inline-block;
+  margin: 2%;
+}
+
+.our_services__figure {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.our_services__content__box h3 {
+  color: #616161;
+  font-family: "RalewayMedium";
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.our_services__content__box p {
+  font-family: "RalewayMedium";
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: #616161;
+}
+
+.container_c h2 {
+  color: #fff;
+  font-family: "RalewayMedium";
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.line_white {
+  width: 6%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.portfolio__item {
+  width: 100%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+  font-size: 0;
+}
+
+.portfolio__item li {
+  width: 33%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #000;
+}
+
+.portfolio__item img {
+  width: 100%;
+}
+
+.portfolio__item__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.portfolio__item__info:hover {
+  opacity: 1;
+  background: rgba(48, 48, 48, 0.6);
+}
+
+.portfolio__item__info p {
+  color: #fff;
+  font-family: "RalewayMedium";
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  text-transform: none;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.portfolio__item__info img {
+  width: 20%;
+  margin-top: 10%;
+}
+
+.our_team__figure {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.our_team__content__box {
+  position: relative;
+  width: 20%;
+  display: inline-block;
+  margin: 2%;
+}
+
+.our_team__content__box h3 {
+  color: #2980b9;
+  font-family: "RalewayMedium";
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.our_team__figure {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.our_team__figure img {
+  width: 100%;
+}
+
+.our_team__content__box__ico {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 69%;
+  opacity: 0;
+}
+
+.our_team__content__box__ico:hover {
+  opacity: 1;
+  background: rgba(48, 48, 48, 0.6);
+}
+
+.our_team__content__box__ico--round {
+  display: inline-block;
+  width: 25%;
+  margin-top: 45%;
+  text-align: center;
+}
+
+.our_offices__map {
+  width: 100%;
+  padding-bottom: 55%;
+  background: url("../images/map.png") no-repeat 50% 50%;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.container_w p {
+  font-family: "RalewayMedium";
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: #2980b9;
+}
+
+.container_c p {
+  font-family: "RalewayMedium";
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  color: #fff;
+}
+
+.our_clients__item {
+  margin: 5% 0% auto;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+  border-bottom: 3px solid #2980b9;
+}
+
+.our_clients__item li {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 16%;
+  text-align: justify;
+}
+
+.our_clients__item img {
+  width: 60%;
+}

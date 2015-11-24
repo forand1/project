@@ -1,0 +1,348 @@
+=box
+	position: relative
+	width: 100%
+	height: 0
+	padding-bottom: 55%
+	opacity: 0.50
+
+=centr_obj
+	margin: 5% 0% auto
+	display: inline-block
+	text-align: center
+
+=title_blue
+	color: #2980b9
+	font-family: "RalewayMedium"
+	font-size: 25px
+	text-decoration: none
+	text-transform: uppercase 
+	text-align: center
+	margin-top: 5%
+	margin-bottom: 1%
+
+=title_white
+	color: #fff
+	font-family: "RalewayMedium"
+	font-size: 25px
+	text-decoration: none
+	text-transform: uppercase 
+	text-align: center
+	margin-top: 5%
+	margin-bottom: 1%
+
+=line
+	width: 6%
+	height: 3px
+	margin: 0 auto
+
+=base_txt
+	font-family: "RalewayMedium"
+	font-size: 13px
+	text-decoration: none
+	text-align: center
+	margin-top: 5%
+	margin-bottom: 1%
+
+
+
+.wrap
+	background-color: #000
+
+.top
+	+box ()
+	background: url("../images/hero-01.jpg") no-repeat 50% 50%  
+	background-size: cover
+	&:hover
+		opacity: 1
+
+.portfolio
+	+box ()
+	background: url("../images/hero-02.jpg") no-repeat 50% 50% 
+	background-size: cover
+	&:hover
+		opacity: 1
+
+.our_offices
+	+box ()
+	background: url("../images/hero-03.jpg") no-repeat 50% 50% 
+	background-size: cover 
+	&:hover
+		opacity: 1
+
+.our_contacts
+	+box ()
+	background: url("../images/hero-04.jpg") no-repeat 50% 50% 
+	background-size: cover
+	&:hover
+		opacity: 1 
+
+.white_arrow
+	position: relative
+	padding-bottom: 40%
+	margin-bottom: -10%
+
+.white_arrow__left
+	position: absolute
+	width: 50%
+	height: 100%
+	background-color: #fff
+	transform: skewY(10deg)
+	margin-top: -5%
+	z-index: 2
+	
+
+.white_arrow__right
+	position: absolute
+	right: 0
+	width: 50%
+	height: 100%
+	background-color: #fff
+	transform: skewY(-10deg)
+	margin-top: -5%
+	z-index: 2
+
+.container
+	position: relative
+	width: 60%
+	margin: 0% 20%
+	padding-top: 5%
+	
+.container_w
+	position: absolute
+	width: 60%
+	margin: -35% 20% 0% 20%
+	padding-top: 5%
+	z-index: 3
+
+.container_c
+	position: relative
+	width: 60%
+	margin: 0% 20%
+	padding-top: 10%
+
+.logo
+	position: absolute
+	width: 7%
+	padding-bottom: 7%
+	background: url("../pic/logo_start.png") no-repeat 50% 50% 
+	background-size: contain
+
+.nav
+	position: absolute
+	right: 0
+	margin-top: 2%
+	min-width: 80%
+	display: inline-block
+	text-align: right
+
+.nav a
+	margin-left: 2%
+	color: #fafcfe
+	font-family: "RalewayRegular"
+	font-size: 15px
+	font-weight: 500
+	text-decoration: none
+	text-align: center
+
+.top__content
+	+centr_obj
+	margin-top: 15%
+
+.top__content__logo
+	width: 10%
+	padding-bottom: 10%
+	background: url("../pic/logo.png") no-repeat 50% 50% 
+	background-size: contain
+	+centr_obj
+
+.top__content__text
+	color: #fafcfe
+	font-family: "RalewayRegular"
+	font-size: 18px
+	text-decoration: none;
+	+centr_obj
+
+.top__content__button
+	border: 1px solid #fff
+	border-radius: 3px
+	color: #fafcfe
+	font-family: "RalewayRegular"
+	font-size: 15px
+	text-decoration: none
+	padding: 1%
+	+centr_obj
+
+.top__content__scroll
+	width: 100%
+	position: absolute 
+	bottom: 5%
+
+.top__content__scroll p
+	color: #fafcfe
+	font-family: "RalewayRegular"
+	font-size: 15px
+	text-decoration: none
+	text-transform: uppercase 
+	text-align: center
+
+.top__content__scroll--ico
+	width: 3%
+	padding-bottom: 5%
+	background: url("../pic/mouse_scrolling-w.png") no-repeat 50% 50% 
+	background-size: contain
+	margin: 0 auto
+
+.container_w h2
+	+title_blue
+
+.line_blue
+	+line
+	background-color: #2980b9
+	
+
+.content
+	+centr_obj
+
+.our_services__content__box
+	width: 25%
+	display: inline-block
+	margin: 2%
+
+.our_services__figure
+	width: 100%
+	padding-bottom: 5%
+
+.our_services__content__box h3
+	color: #616161;
+	font-family: "RalewayMedium"
+	font-size: 16px
+	text-decoration: none
+	text-align: center
+	margin-top: 5%
+	margin-bottom: 1%
+
+.our_services__content__box p
+	+base_txt
+	color: #616161;
+
+.container_c h2
+	+title_white
+
+.line_white
+	+line
+	background-color: #fff
+
+.portfolio__item 
+	width: 100%
+	margin-top: 10%
+	display: inline-block
+	text-align: center
+	font-size: 0
+
+.portfolio__item li 
+	width: 33%
+	position: relative
+	overflow: hidden
+	cursor: pointer
+	display: inline-block
+	background-color: #000
+	
+.portfolio__item img 
+	width: 100%
+
+.portfolio__item__info
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	opacity: 0
+	&:hover
+		opacity: 1
+		background: rgba(48,48,48,.6);
+	
+.portfolio__item__info p
+	+title_white
+	text-transform: none
+	font-size: 16px
+	text-align: center
+	margin-top: 10%
+	
+.portfolio__item__info img
+	width: 20%
+	margin-top: 10%
+
+.our_team__figure
+	width: 100%
+	padding-bottom: 5%
+
+.our_team__content__box
+	position: relative
+	width: 20%
+	display: inline-block
+	margin: 2%
+
+.our_team__content__box h3
+	color: #2980b9
+	font-family: "RalewayMedium"
+	font-size: 16px
+	text-decoration: none
+	text-align: center
+	margin-top: 5%
+	margin-bottom: 1%
+
+.our_team__figure
+	width: 100%
+	padding-bottom: 5%
+
+.our_team__figure img
+	width: 100%
+
+.our_team__content__box__ico
+	position: absolute
+	top: 0
+	width: 100%
+	height: 69%
+	opacity: 0
+	&:hover
+		opacity: 1
+		background: rgba(48,48,48,.6)
+
+.our_team__content__box__ico--round
+	display: inline-block
+	width: 25%
+	margin-top: 45%
+	text-align: center
+
+.our_offices__map
+	width: 100%
+	padding-bottom: 55%
+	background: url("../images/map.png") no-repeat 50% 50% 
+	background-size: contain
+	margin: 0 auto
+
+.container_w p
+	+base_txt
+	color: #2980b9
+
+.container_c p
+	+base_txt
+	color: #fff
+
+.our_clients__item
+	+centr_obj
+	list-style: none
+	width: 100%
+	display: inline-block
+	border-bottom: 3px solid #2980b9
+
+.our_clients__item li
+	position: relative
+	overflow: hidden
+	display: inline-block
+	width: 16%
+	text-align: justify
+
+.our_clients__item img
+	width: 60%
+
